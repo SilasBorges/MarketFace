@@ -1,5 +1,6 @@
 package com.example.markface
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -29,6 +30,10 @@ class PublishActivity : AppCompatActivity() {
                 saveNews(title, new, date, author)
                 }
             }
+        binding.buttonView.setOnClickListener {
+            val intent = Intent(this, NewsActivity::class.java )
+            startActivity(intent)
+        }
         }
     private fun saveNews(title: String, new: String, date: String, author: String) {
         val mapNews = hashMapOf(

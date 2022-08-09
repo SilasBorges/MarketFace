@@ -85,6 +85,20 @@
         android:layout_marginEnd="20dp"
         android:text="@string/button_publish"
         android:textColor="@color/white"
+        android:backgroundTint="@color/teal_700"
+        tools:ignore="TextContrastCheck"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/buttonView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/button_view"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_700"
         tools:ignore="TextContrastCheck"
         android:textAllCaps="false"/>
 

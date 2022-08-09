@@ -7,4 +7,6 @@
     <string name="hint_date">Data de publicação</string>
     <string name="hint_author">Autor</string>
     <string name="button_publish">Publicar Notícia</string>
+    <string name="button_view">Vizualizar Notícia</string>
+    <string name="image">image</string>
 </resources>
